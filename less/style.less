@@ -284,7 +284,7 @@ body {
 				width: 270px;
 				height: 70px;
 				background-color: white;
-				margin-top: 10px;
+				margin-top: 24px;
 				border-radius: 35px;
 				display: block;
 				margin-left: auto;
@@ -342,6 +342,7 @@ body {
 	background-color: #f2f2f2;
 	padding-top: 118px;
 	padding-bottom: 86px;
+	overflow: hidden;
 
 	&__title {
 		color: #000c5a;
@@ -477,12 +478,15 @@ body {
 }
 
 .training {
+	padding-top: 0;
+	padding-bottom: 90px;
+	overflow: hidden;
 	&__title {
 		color: #000c5a;
 		font-size: 49px;
 		font-weight: 700;
 		text-transform: uppercase;
-		margin-top: 90px;
+		margin-top: 0;
 		margin-bottom: 0;
 		text-align: center;
 		line-height: 58px;
@@ -553,7 +557,7 @@ body {
 }
 
 .last-form {
-	margin-top: 286px;
+	margin-top: 236px;
 	padding-bottom: 2px;
 	background: url(../img/last-bg.png) center 15px no-repeat, linear-gradient(to right, #000736 0%, #000f75 100%),  #010521;	
 
@@ -577,13 +581,13 @@ body {
 		padding: 48px 42px 23px;
 		box-sizing: border-box;
 
-.form-item {
-		margin-bottom: 47px;
+		.form-item {
+			margin-bottom: 47px;
 
-		&--no-mb {
-			margin-bottom: 0;
+			&--no-mb {
+				margin-bottom: 0;
+			}
 		}
-}
 		&-input {
 			width: 100%;
 			height: 70px;
